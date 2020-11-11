@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Community Map</title>
+    <script src="./index.js" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPf4NQ90fAdCsaXxAs8veDMoczZCrlALo&callback=initMap&libraries=&v=weekly" defer></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+  </head>
+  <body>
+    <div id='map'></div>
+    <div class='filter-menu' id='buttonsPanel'></div>
+    <div id='loginBox' hidden=true>
+      <button class='btn close-button' id='loginBoxCloseButton' style=''>✖</button>
+      <h1>Log In</h1>
+      <form class='login-form' id='loginForm'>
+        <h2 for='loginEmail'>Email:</h2>
+        <input class='form-text-input' type='email' id='loginEmail'><br><br>
+        <h2 for='loginPassword'>Password:</h2>
+        <input class='form-text-input' type='password' id='loginPassword'><br><br><br>
+        <input class='btn form-button-input' type='button' id='loginFormButton' value='Log In'>
+      </form>
+    </div>
+    <div id='filterContainer'>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,171 @@
+body {
+  background-color: #fff;
+}
+
+#map {
+  position: absolute;
+  top:0;
+  left:0;
+  height: 95vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#loginBox {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  margin-top: -7vw;
+  margin-left: -10vw;
+  height: 14vw;
+  width: 20vw;
+  min-height: 300px;
+  min-width: 200px;
+  background-color: #eee;
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  box-shadow: 10px 0px 20px #ccc, -10px 0px 20px #ccc, 0px 10px 20px #ccc, 0px -10px 20px #ccc;
+  z-index: 100;
+  text-align: center;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+li {
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 5px;
+}
+
+.close-button {
+  position:absolute;
+  right:0;
+  top:0;
+  font-size:36px;
+  border:none;
+  cursor:pointer;
+  background:none;
+}
+
+.custom-map-control-button {
+
+  background: none padding-box rgb(255, 255, 255);
+  display: table-cell;
+  border: 0px;
+  margin-bottom: 22px;
+  margin-top: 10px;
+  padding: 0px 17px;
+  text-transform: none;
+  appearance: none;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  direction: ltr;
+  overflow: hidden;
+  text-align: center;
+  height: 40px;
+  vertical-align: middle;
+  color: rgb(86, 86, 86);
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+  border-radius: 2px;
+  min-width: 36px;
+  font-weight: 400;
+}
+
+.custom-map-control-button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(235, 235, 235);
+}
+
+.custom-map-control-checkbox {
+  margin: 5px;
+}
+
+.custom-map-control-icon {
+
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+
+}
+
+.custom-map-control-text-box {
+  position: relative;
+  left: 0;
+  padding: 0.5vh 1vw 0.5vh 1vw;
+  text-align: left;
+  font-size: 200%;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.custom-map-control-text-box li {
+  margin-left: 1vw;
+  font-size: 80%;
+}
+
+.login-form h2 {
+  margin: 0;
+  color: #000;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.form-text-input {
+  position: relative;
+  background: #fff;
+  width: 90%;
+  line-height: 150%;
+  font-size: x-large;
+  border: 2px solid #000;
+  border-radius: 30px;
+  text-align: center;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.form-button-input {
+  width: 50%;
+  font-size: xx-large;
+  padding: 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.form-button-input:hover {
+  font-weight: bold;
+}
+
+.filter-button {
+  display: inline-block;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.3vh 1.5vw 0.3vh 1.5vw;
+  margin: 0.3vh 0.5vw 0.3vh 0.5vw;
+  text-decoration: none;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  box-shadow: 0 2px 2px #aaa;
+}
+
+.filter-menu {
+  position: absolute;
+  left:0;
+  top: 95vh;
+  width: 100vw;
+  background: none;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
